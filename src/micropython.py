@@ -10,8 +10,9 @@
 
 from typing import Literal as _Literal
 
+# TODO(tg-techie): discuss which of these to use in the weekly In The Weeds
 TYPE_CHECKING: _Literal[True] = False  # type: ignore[assignment]
-
+ANNOTATION_ONLY: _Literal[True] = False  # type: ignore[assignment]
 
 def const(x):
     "Emulate making a constant"

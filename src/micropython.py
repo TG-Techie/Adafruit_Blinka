@@ -8,11 +8,9 @@
 * Author(s): cefn
 """
 
+from typing import Literal as _Literal
 
-import typing as _typing
-
-
-TYPE_CHECKING = _typing.TYPE_CHECKING
+TYPE_CHECKING: _Literal[True] = False  # type: ignore[assignment]
 
 
 def const(x):

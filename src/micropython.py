@@ -9,6 +9,12 @@
 """
 
 
+import typing as _typing
+
+
+TYPE_CHECKING = _typing.TYPE_CHECKING
+
+
 def const(x):
     "Emulate making a constant"
     return x
